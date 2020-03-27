@@ -1,4 +1,3 @@
-var baseUrl = "https://drv.tw/~laalpri@gmail.com/gd/curio/";
 var spiderSearch = /\baraña blanca|\barañas blancas|\bwhite spider|\barañas albinas|\baraña albina|\balbino spider|\balbino spiders/gi
 var snakeSearch = /\bserpiente Las Vegas|\bserpientes nevada|\bserpiente casino|\bserpiente carta|\bserpiente cartas|\bserpiente baraja cartas/gi
                 
@@ -12,7 +11,7 @@ var snakeSearch = /\bserpiente Las Vegas|\bserpientes nevada|\bserpiente casino|
 
                 if(str.match(spiderSearch)){
                     alert("ARAÑAS");
-                    window.location.href = baseUrl+"serpientesSearch.html";
+                    window.location.href = "serpientesSearch.html";
                 }else if(str.match(snakeSearch)){
                     alert("SERPIENTES");
                     window.location.href = "serpientesSearch.html";
@@ -25,10 +24,10 @@ var snakeSearch = /\bserpiente Las Vegas|\bserpientes nevada|\bserpiente casino|
                 if(e.which == 13) {
                     if(str.match(spiderSearch)){
                         alert("ARAÑAS");
-                        window.location.href = baseUrl+"serpientesSearch.html";
+                        window.location.href = "serpientesSearch.html";
                     }else if(str.match(snakeSearch)){
                         alert("SERPIENTES");
-                        window.location.href = baseUrl+"serpientesSearch.html";
+                        window.location.href = "serpientesSearch.html";
                     }
                 }
             });

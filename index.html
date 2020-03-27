@@ -12,67 +12,21 @@
     <title>Curio - Search Everything!</title>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/main.js"></script>
 
-    <style>
-        body{
-            background-image: url('https://images.unsplash.com/photo-1551163829-3ea65502c44e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1575&q=80');
-        }
-        .searchBox {
-            width: 70%;
-            margin-left: auto;
-            margin-right: auto;
-            text-align: center;
-            left:0;
-            right:0;
-            position: absolute;
-            background-color: white;
-            box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
-            padding-top: 5%;
-            padding-bottom: 7%;
-            top: 15%;
-        }
-
-        input[type=text]{
-            width: 70%;
-            padding: 12px 20px;
-            margin: 8px 0;
-            display: inline-block;
-            border: 1px solid #ccc;
-            border-radius: 20px;
-            box-sizing: border-box;
-            font-size:15px;
-        }
-
-        #botonBusqueda {
-            box-shadow: 0px 10px 14px -7px #787878;
-            background-color:#000000;
-            border-radius:25px;
-            display:inline-block;
-            cursor:pointer;
-            color:#ffffff;
-            font-family:Arial;
-            font-size:15px;
-            padding:13px 32px;
-            text-decoration:none;
-        }
-
-        #botonBusqueda:hover {
-            background:linear-gradient(to bottom, #000000 5%, #4d4d4d 100%);
-            background-color:#000000;
-        }
-    </style>
-
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
-    <div class="searchBox">
-        <img src="logoCurio.png" alt="logoCurio" width="30%">
-        <br>
-        <input type="text" placeholder="Buscar..." value="" id="inputBusqueda" autofocus >
-        <br> <br>
-        <a href="#" id="botonBusqueda">Buscar con Curio</a>
+    <div id="fondoBuscador">
+        <div class="searchBox">
+            <img src="logoCurio.png" alt="logoCurio" width="30%">
+            <br>
+            <input type="text" placeholder="Buscar..." value="" id="inputBusqueda" autofocus >
+            <br> <br>
+            <a href="#" id="botonBusqueda">Buscar con Curio</a>
+        </div>
     </div>
 </body>
 
