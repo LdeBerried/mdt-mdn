@@ -11,7 +11,7 @@ var snakeSearch = /\bserpiente Las Vegas|\bserpientes nevada|\bserpiente casino|
 
                 if(str.match(spiderSearch)){
                     alert("ARAÑAS");
-                    window.location.href = "serpientesSearch.html";
+                    window.location.href = "spiderSearch.html";
                 }else if(str.match(snakeSearch)){
                     alert("SERPIENTES");
                     window.location.href = "serpientesSearch.html";
@@ -24,7 +24,7 @@ var snakeSearch = /\bserpiente Las Vegas|\bserpientes nevada|\bserpiente casino|
                 if(e.which == 13) {
                     if(str.match(spiderSearch)){
                         alert("ARAÑAS");
-                        window.location.href = "serpientesSearch.html";
+                        window.location.href = "spiderSearch.html";
                     }else if(str.match(snakeSearch)){
                         alert("SERPIENTES");
                         window.location.href = "serpientesSearch.html";
